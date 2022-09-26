@@ -1,8 +1,10 @@
 import React from 'react'
 
-function Topnav() {
+const Topnav = () => {
   return (
-    <div>Topnav</div>
+    <div>
+      TopNav
+    </div>
   )
 }
 
