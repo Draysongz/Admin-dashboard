@@ -2,32 +2,32 @@ import images from "./images"
 
 const data = {
     user: {
-        name: 'Tuatta',
+        name: 'Dray',
         img: images.avt
     },
     summary: [
         {
-            title: 'Sales',
-            subtitle: 'Total sales today',
-            value: '$1.000',
-            percent: 70
+            title: 'Registrations',
+            subtitle: 'Total students registration',
+            value: '20',
+            percent: 20
         },
         {
-            title: 'Orders',
-            subtitle: 'Total orders today',
-            value: '3000',
-            percent: 49
+            title: "Student's progress",
+            subtitle: 'progress of students',
+            value: '40%',
+            percent: 40
         },
         {
-            title: 'Revenue',
-            subtitle: 'Total revenue today',
-            value: '$678',
-            percent: 38
+            title: 'Duration',
+            subtitle: 'The duration of the course',
+            value: '4 out of 6 months',
+            percent: 66
         },
         {
             title: 'Visits',
             subtitle: 'Total visits today',
-            value: '2345',
+            value: '145',
             percent: 55
         }
     ],
@@ -41,20 +41,20 @@ const data = {
     },
     overall: [
         {
-            value: '300K',
-            title: 'Orders'
+            value: '4',
+            title: 'Courses'
         },
         {
-            value: '9.876K',
-            title: 'Customers'
+            value: '1000',
+            title: 'Users'
         },
         {
-            value: '1.234K',
-            title: 'Products'
+            value: '10',
+            title: 'Tutors'
         },
         {
-            value: '$5678',
-            title: 'Revenue'
+            value: '1000',
+            title: 'Visits'
         }
     ],
     revenueByChannel: [

@@ -7,13 +7,13 @@ import Topnav from '../components/topnav/Topnav'
 const MainLayout = () => {
   return (
     <>
-    <Sidebar/>
+    <Sidebar />
     <div className="main">
-    <div className="main__content">
-      <Topnav/>
-      <Outlet/>
+      <div className="main__content">
+        <Topnav />
+        <Outlet />
       </div>
-      </div>
+    </div>
     </>
   )
 }
